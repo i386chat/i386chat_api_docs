@@ -25,6 +25,7 @@ To send a message, you must have:
 - Initialised a socket connection
 - Initialised UserData
 - Received local UserData from the server
+
 Otherwise, your client will not be sent events.
 
 The server will emit all messages from your room only. To get these messages, extract them like this:
